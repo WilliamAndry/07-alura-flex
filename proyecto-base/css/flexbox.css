@@ -53,6 +53,18 @@
     gap: 15px;
 }
 
+/*SECCION VIDEOS*/
+    .videos__item{
+        width: 280px;
+        height: 303px;
+        flex-grow: 1;
+    }
+
+    .videos__container{
+        display: flex;
+        flex-wrap:wrap  ;
+        gap: 10px;
+    }
 /*RODAPIE*/
 .rodapie__container{
     display: flex;
@@ -99,7 +111,7 @@
          display: flex;
     }
     
-    .menu_lista{
+    .menu__lista{
         height: auto;
         padding: 20px 17px 20px 15px;
         gap: 15px;
